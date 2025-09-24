@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -11,9 +11,9 @@ export default {
         'body': ['Inter', 'sans-serif'],
       },
       colors: {
-        'brand-primary': '#8B4513',
-        'brand-secondary': '#D2B48C',
-        'brand-accent': '#CD853F',
+        'brand-primary': '#1a1a1a',
+        'brand-secondary': '#f8f8f8',
+        'brand-accent': '#d4af37',
       },
     },
   },

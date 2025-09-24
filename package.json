@@ -1,7 +1,7 @@
 {
   "name": "eb-fm",
   "version": "1.0.0",
-  "description": "Elite Builders - Fine Materials construction company website",
+  "description": "Elite Builders - Fine Materials luxury home construction website",
   "private": true,
   "type": "module",
   "scripts": {
@@ -40,7 +40,8 @@
     "construction",
     "website",
     "vite",
-    "tailwindcss"
+    "tailwindcss",
+    "figma"
   ],
   "author": "Elite Builders - Fine Materials",
   "license": "MIT"

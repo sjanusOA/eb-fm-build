@@ -1,69 +1,98 @@
 # Elite Builders - Fine Materials
 
-A modern, responsive website for Elite Builders - Fine Materials, a luxury custom home construction and renovation company.
+A luxury home construction company website built with modern web technologies.
 
 ## Features
 
-- **Modern Design**: Clean, professional design with custom typography and color scheme
+- **Modern Design**: Clean, professional design with luxury aesthetics
 - **Responsive Layout**: Fully responsive design that works on all devices
-- **Interactive Navigation**: Smooth page transitions and intuitive navigation
-- **Component-Based Architecture**: Built with React and TypeScript for maintainability
-- **UI Components**: Comprehensive set of reusable UI components
+- **Interactive Elements**: Smooth scrolling, hover effects, and animations
+- **Contact Form**: Functional contact form for client inquiries
+- **Portfolio Showcase**: Featured projects and services
+- **Professional Typography**: Custom fonts and styling
 
 ## Tech Stack
 
-- **React 18** - Frontend framework
-- **TypeScript** - Type safety and better development experience
-- **Vite** - Fast build tool and development server
-- **Tailwind CSS** - Utility-first CSS framework
-- **Lucide React** - Beautiful icon library
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with CSS Grid and Flexbox
+- **JavaScript** - Interactive functionality
+- **Google Fonts** - Professional typography
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
-- npm or yarn
+- A web browser
+- A local web server (optional, for development)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sjanusOA/eb-fm.git
    cd eb-fm
    ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. Open `index.html` in your web browser
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+### Development
 
-4. Open your browser and navigate to `http://localhost:3000`
+For local development, you can use a simple HTTP server:
 
-### Available Scripts
+```bash
+# Using Python
+python -m http.server 8000
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run type-check` - Run TypeScript type checking
+# Using Node.js
+npx http-server
+
+# Using PHP
+php -S localhost:8000
+```
+
+Then open `http://localhost:8000` in your browser.
 
 ## Project Structure
 
 ```
-src/
-├── components/          # React components
-│   ├── ui/             # Reusable UI components
-│   └── ...             # Page-specific components
-├── App.tsx             # Main application component
-├── main.tsx            # Application entry point
-└── globals.css         # Global styles
+eb-fm/
+├── index.html          # Main HTML file
+├── README.md           # Project documentation
+└── .gitignore          # Git ignore rules
 ```
+
+## Sections
+
+- **Hero**: Main landing section with call-to-action
+- **Stats**: Company statistics and achievements
+- **Services**: Available construction services
+- **Portfolio**: Featured projects showcase
+- **Contact**: Contact form and company information
+- **Footer**: Additional links and company details
+
+## Customization
+
+### Colors
+The website uses a luxury color scheme defined in CSS variables:
+- Primary: `#1a1a1a` (Dark)
+- Secondary: `#f8f8f8` (Light)
+- Accent: `#d4af37` (Gold)
+
+### Fonts
+- **Headings**: Playfair Display (serif)
+- **Body**: Inter (sans-serif)
+
+## Deployment
+
+### GitHub Pages
+1. Push your code to GitHub
+2. Go to repository Settings
+3. Navigate to Pages section
+4. Select "Deploy from a branch"
+5. Choose "main" branch and "/ (root)" folder
+6. Save
+
+Your site will be available at: `https://sjanusOA.github.io/eb-fm`
 
 ## Contributing
 
@@ -80,6 +109,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 Elite Builders - Fine Materials
-- Website: [Your Website URL]
-- Email: [Your Email]
-- Phone: [Your Phone Number]
+- Website: [https://sjanusOA.github.io/eb-fm](https://sjanusOA.github.io/eb-fm)
+- Email: info@elitebuilders.com
+- Phone: (555) 123-4567
